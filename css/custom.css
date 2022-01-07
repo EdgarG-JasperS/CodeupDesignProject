@@ -1,0 +1,77 @@
+body {
+    background-color: #e6e6e6;
+}
+#header {
+
+
+}
+
+
+#logo {
+
+}
+
+#logo-strip {
+    height: 60px;
+    width: 100%;
+}
+
+.jumbotron {
+    background-color: #e6e6e6;
+}
+
+.white-border {
+    border: #ffffff solid 5px;
+}
+
+.red-pill {
+    background-color: #e6563b;
+}
+
+
+.gold-pill {
+    background-color: #dea03d;
+}
+
+.green-pill {
+    background-color: #7cb06c;
+}
+
+.blue-pill {
+    background-color: #00aba9;
+}
+
+@media screen and (min-width: 320px) and (max-width: 760px){
+    #header {
+        /*position: relative;*/
+
+    }
+    #logo-and-strip {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    #logo {
+        /*position: absolute;*/
+        /*top: 10px;*/
+        /*left: 95px;*/
+        max-width: 130px;
+    }
+
+    nav {
+        font-size: .75rem;
+    }
+    .jumbotron > h1 {
+        font-size: 1.6rem;
+    }
+    .jumbotron > h2 {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #logo {
+        max-width: 105px;
+    }
+}
