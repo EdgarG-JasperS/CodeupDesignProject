@@ -50,9 +50,11 @@ body {
 .blue-pill {
 	background-color: #00aba9;
 }
+
 .small-pill-group {
 	width: 100px;
 }
+
 @media screen and (min-width: 320px) and (max-width: 760px) {
 	#logo-and-strip {
 		position: relative;
@@ -81,7 +83,20 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+	#logo-and-strip {
+		position: relative;
+		display: flex;
+		justify-content: center;
+		width: 100%;
+	}
+
 	#logo {
-		max-width: 105px;
+		position: absolute;
+		max-width: 130px;
+		margin-top: 1.1em;
+	}
+
+	.nav {
+		position: relative;
 	}
 }
