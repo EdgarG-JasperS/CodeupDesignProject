@@ -8,6 +8,14 @@ body {
 	width: 100%;
 }
 
+#work-md {
+	width: 80px;
+}
+
+#blog-md {
+	width: 90px;
+}
+
 .jumbotron {
 	background-color: #e6e6e6;
 	font-family: 'Anton', sans-serif;
@@ -55,6 +63,11 @@ body {
 	width: 100px;
 }
 
+.article {
+	max-height: 200px;
+
+}
+
 @media screen and (min-width: 320px) and (max-width: 760px) {
 	#logo-and-strip {
 		position: relative;
@@ -83,20 +96,21 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-	#logo-and-strip {
+	.md-navbar {
 		position: relative;
 		display: flex;
 		justify-content: center;
 		width: 100%;
 	}
 
-	#logo {
+	#logo-md {
 		position: absolute;
 		max-width: 130px;
-		margin-top: 1.1em;
+		top: -3em;
 	}
 
 	.nav {
 		position: relative;
 	}
+
 }

@@ -11,14 +11,24 @@
 	<title>Codeup Design</title>
 </head>
 <body>
-	<div id="logo-and-strip">
+	<div id="logo-and-strip" class="d-md-none d-lg-block">
 		<div id="logo-strip" class="bg-white my-5"></div>
 		<img id="logo" src="img/logo.png" alt="logo">
+	</div>
+	<div class="navbar navbar-expand-lg navbar-light bg-light my-5 md-navbar">
+			<div class="d-flex justify-content-around w-100 text-center">
+				<a class="text-dark md-nav" href="#">SERVICES</a>
+				<a id="work-md" class="text-dark md-nav" href="#">WORK</a>
+				<img id="logo-md" src="img/logo.png" alt="logo">
+				<a id="blog-md" class="text-dark md-nav" href="#">BLOG</a>
+				<a class="text-dark md-nav" href="#">CONTACT</a>
+			</div>
+		</div>
 	</div>
 	<nav class="d-flex justify-content-center">
 		<div class="text-center">
 			<h1 class="text-center">codeup design</h1>
-			<div class="mr-auto text-center d-flex justify-content-around w-100">
+			<div class="mr-auto text-center d-flex justify-content-around w-100 d-md-none d-lg-block">
 				<div class="">
 					<a class="text-dark" href="#">SERVICES</a>
 				</div>
@@ -41,45 +51,114 @@
 				<h2>FROM PARK CITY, UTAH</h2>
 			</div>
 			<div class="row ">
-				<div class="col d-flex justify-content-center">
+				<div class="col-6 col-md-3 d-flex justify-content-center">
 					<div class="rounded-circle text-white red-pill regular-pill white-border">
 						<p class="mb-0">DESIGN</p>
 					</div>
 				</div>
-				<div class="col d-flex justify-content-center">
+				<div class="col-6  col-md-3 d-flex justify-content-center">
 					<div class="rounded-circle text-white gold-pill regular-pill white-border">
 						<p class="mb-0">DEVELOP</p>
 					</div>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col d-flex justify-content-center">
+				<div class="col-6 col-md-3 d-flex justify-content-center">
 					<div class="rounded-circle text-white green-pill regular-pill white-border">
 						<p class="mb-0">SUPPORT</p>
 					</div>
 				</div>
-				<div class="col d-flex justify-content-center">
+				<div class="col-6 col-md-3 d-flex justify-content-center">
 					<div class="rounded-circle text-white blue-pill regular-pill white-border">
 						<p class="mb-0">HOST</p>
 					</div>
 				</div>
 			</div>
+			<hr class="d-none d-sm-block">
 			<div class="text-center m-2">Selected Work</div>
-			<img class="img-fluid border-white mb-2" src="img/apple-ipad.jpg" alt="apples and ipad">
-			<div class="d-flex justify-content-between">
-				<div class="">Featured Project</div>
-				<div class="small-pill-group d-flex justify-content-around">
-					<div class="rounded-circle small-pill red-pill">
-						<p class="mb-0">D</p>
+			<div class="row">
+<!--			start of 1st picture-->
+				<div class="col-md-6 text-center">
+				<img class="img-fluid border-white mb-2 article" src="img/apple-ipad.jpg" alt="apples and ipad">
+				<div class="d-flex justify-content-between">
+					<div class="">Featured Project</div>
+					<div class="small-pill-group d-flex justify-content-around">
+						<div class="rounded-circle small-pill red-pill">
+							<p class="mb-0">D</p>
+						</div>
+						<div class="rounded-circle small-pill gold-pill">
+							<p class="mb-0">D</p>
+						</div>
+						<div class="rounded-circle small-pill green-pill">
+							<p class="mb-0">S</p>
+						</div>
+						<div class="rounded-circle small-pill blue-pill">
+							<p class="mb-0">H</p>
+						</div>
 					</div>
-					<div class="rounded-circle small-pill gold-pill">
-						<p class="mb-0">D</p>
+				</div>
+			</div>
+<!--				start of second picture-->
+				<div class="col-md-6 text-center">
+					<img class="img-fluid mb-2 article" src="img/macbook.jpg" alt="macbook">
+					<div class="d-flex justify-content-between">
+						<div class="">Featured Project</div>
+						<div class="small-pill-group d-flex justify-content-around">
+							<div class="rounded-circle small-pill red-pill">
+								<p class="mb-0">D</p>
+							</div>
+							<div class="rounded-circle small-pill gold-pill">
+								<p class="mb-0">D</p>
+							</div>
+							<div class="rounded-circle small-pill green-pill">
+								<p class="mb-0">S</p>
+							</div>
+							<div class="rounded-circle small-pill blue-pill">
+								<p class="mb-0">H</p>
+							</div>
+						</div>
+				</div>
+			</div>
+	</div>
+<!--				start of third picture-->
+			<div class="row">
+				<div class="col-md-6 text-center">
+					<img class="img-fluid mb-2 article" src="img/man.jpg" alt="man looking at computer screen">
+					<div class="d-flex justify-content-between">
+						<div class="">Featured Project</div>
+						<div class="small-pill-group d-flex justify-content-around">
+							<div class="rounded-circle small-pill red-pill">
+								<p class="mb-0">D</p>
+							</div>
+							<div class="rounded-circle small-pill gold-pill">
+								<p class="mb-0">D</p>
+							</div>
+							<div class="rounded-circle small-pill green-pill">
+								<p class="mb-0">S</p>
+							</div>
+							<div class="rounded-circle small-pill blue-pill">
+								<p class="mb-0">H</p>
+							</div>
+						</div>
 					</div>
-					<div class="rounded-circle small-pill green-pill">
-						<p class="mb-0">S</p>
-					</div>
-					<div class="rounded-circle small-pill blue-pill">
-						<p class="mb-0">H</p>
+				</div>
+<!--				start of fourth picture-->
+				<div class="col-md-6 text-center">
+					<img class="img-fluid mb-2 article" src="img/security.jpg" alt="security on computer">
+					<div class="d-flex justify-content-between below-picture">
+						<div class="">Featured Project</div>
+						<div class="small-pill-group d-flex justify-content-around">
+							<div class="rounded-circle small-pill red-pill">
+								<p class="mb-0">D</p>
+							</div>
+							<div class="rounded-circle small-pill gold-pill">
+								<p class="mb-0">D</p>
+							</div>
+							<div class="rounded-circle small-pill green-pill">
+								<p class="mb-0">S</p>
+							</div>
+							<div class="rounded-circle small-pill blue-pill">
+								<p class="mb-0">H</p>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
