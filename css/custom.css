@@ -1,11 +1,3 @@
-#work-md {
-	width: 80px;
-}
-
-#blog-md {
-	width: 90px;
-}
-
 .jumbotron {
 	background-color: #f0f0f0;
 	font-family: 'Anton', sans-serif;
@@ -19,6 +11,42 @@
 	background-color: #e6563b;
 }
 
+.red-pill:hover {
+	border-color: #e6563b;
+	color: #e6563b;
+	background-color: white;
+}
+
+.gold-pill {
+	background-color: #EB9D3A;
+}
+
+.gold-pill:hover {
+	border-color: #EB9D3A;
+	color: #EB9D3A;
+	background-color: white;
+}
+
+.green-pill {
+	background-color: #7cb06c;
+}
+
+.green-pill:hover {
+	border-color: #7cb06c;
+	color: #7cb06c;
+	background-color: white;
+}
+
+.blue-pill {
+	background-color: #00aba9;
+}
+
+.blue-pill:hover {
+	border-color: #00aba9;
+	color: #00aba9;
+	background-color: white;
+}
+
 .regular-pill {
 	height: 100px;
 	width: 100px;
@@ -26,36 +54,32 @@
 	justify-content: center;
 	align-items: center;
 	font-family: 'Anton', sans-serif;
+	color: white;
 }
 
 .small-pill {
-	height: 20px;
-	width: 20px;
+	height: 25px;
+	width: 25px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	font-family: 'Anton', sans-serif;
-}
-
-.gold-pill {
-	background-color: #EB9D3A;
-}
-
-.green-pill {
-	background-color: #7cb06c;
-}
-
-.blue-pill {
-	background-color: #00aba9;
+	font-size: 0.9rem;
 }
 
 .small-pill-group {
-	width: 100px;
+	width: 150px;
 }
 
 .article {
 	border: 1em solid #e6e6e6;
 	border-radius: 5%;
+}
+
+.article:hover {
+	border: none;
+	padding-bottom: 0.67em;
+	border-radius: 0%;
 }
 
 body {
@@ -97,19 +121,27 @@ nav .nav-item {
 #selected-work {
 	text-align: center;
 }
+
 .right-col-text {
 	font-family: Anton, sans-serif;
 }
+
 .right-col-img {
-	border: 0.2em solid #e6e6e6;
+	border: 0.5em solid #e6e6e6;
 	border-radius: 10%;
 	max-width: 60px;
 }
+
+.right-col-img:hover {
+	border: none;
+}
+
 @media screen and (min-width: 992px) {
 	.brand-name {
 		position: relative;
 		top: 5px;
 	}
+
 	#selected-work {
 		text-align: left;
 	}
