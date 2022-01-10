@@ -7,7 +7,7 @@
 }
 
 .jumbotron {
-	background-color: #e6e6e6;
+	background-color: #f0f0f0;
 	font-family: 'Anton', sans-serif;
 }
 
@@ -54,7 +54,8 @@
 }
 
 .article {
-	max-height: 200px;
+	border: 1em solid #e6e6e6;
+	border-radius: 5%;
 }
 
 body {
@@ -93,10 +94,24 @@ nav .nav-item {
 	bottom: 6px;
 }
 
+#selected-work {
+	text-align: center;
+}
+.right-col-text {
+	font-family: Anton, sans-serif;
+}
+.right-col-img {
+	border: 0.2em solid #e6e6e6;
+	border-radius: 10%;
+	max-width: 60px;
+}
 @media screen and (min-width: 992px) {
 	.brand-name {
 		position: relative;
 		top: 5px;
+	}
+	#selected-work {
+		text-align: left;
 	}
 }
 
